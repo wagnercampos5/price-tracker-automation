@@ -2,6 +2,15 @@
 
 Sistema Full-Stack para monitoramento automático de preços, focado em automação, manipulação de dados e integração de APIs. Este projeto marca a consolidação de conceitos fundamentais de programação e arquitetura de software.
 
+## 🌐 Demonstração ao Vivo (Deploy)
+
+- **Aplicação Web (Front-end na Vercel):** [Acessar Rastreador de Preços](https://price-tracker-automation-frontend.vercel.app)
+- **API REST & Documentação Swagger (Back-end no Render):** [Acessar API](https://price-tracker-automation-qg51.onrender.com/docs)
+
+> *Nota sobre hospedagem gratuita: A API está hospedada no plano gratuito do Render e entra em modo de hibernação após 15 minutos de inatividade. Caso seja o primeiro acesso, aguarde cerca de 30 segundos para o servidor inicializar.*
+
+![Preview do Rastreador de Preços](assets/preview.png)
+
 ## ⚠️ Nota sobre o Processo de Estudo
 Este projeto foi desenvolvido estritamente para fins de **estudo e prática**. Para garantir a construção de memória muscular e a compreensão profunda de cada comando, **100% do código foi digitado manualmente, linha por linha**, sem o uso de cópia e cola de blocos prontos. Cada função, rota e regra de CSS foi analisada e implementada manualmente.
 
@@ -29,7 +38,7 @@ O projeto foi dividido em duas camadas independentes (Back-end e Front-end), com
 - **FastAPI:** Framework web moderno e de alta performance para construção da API.
 - **Uvicorn:** Servidor ASGI para rodar a aplicação.
 - **Pydantic:** Tipagem estática e validação de dados (garantindo que strings e floats sejam respeitados nas requisições).
-- **CORS Middleware:** Configuração de segurança para permitir o consumo da API pelo Front-end local.
+- **CORS Middleware:** Configuração de segurança para permitir o consumo da API pelo Front-end.
 
 ### Front-end (Interface Visual)
 - **HTML5:** Estrutura semântica.
