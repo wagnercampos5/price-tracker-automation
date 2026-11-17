@@ -1,4 +1,4 @@
-const API_URL = "https://price-tracker-automation-qg51.onrender.com;
+const API_URL = "https://price-tracker-automation-qg51.onrender.com";
 const listaProdutos = document.getElementById("listaProdutos");
 const alertasBox = document.getElementById("alertas");
 
