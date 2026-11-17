@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Tracker Automation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rastreador de Preços</h1>
+        <div class="form-group">
+            <input type="text" id="termo" placeholder="Nome do produto (ex: Whey Protein)">
+            <input type="number" id="precoAlvo" step="0.01" placeholder="Preço alvo (R$)">
+            <button id="btnAdicionar">Adicionar</button>
+        </div>
+        <button id="btnRastrear" class="btn-track">Executar Rastreamento Agora</button>
+        <div id="alertas" class="alertas-box"></div>
+        <ul id="listaProdutos" class="product-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
